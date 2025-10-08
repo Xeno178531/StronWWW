@@ -1,0 +1,11 @@
+{
+    "livePreview.defaultPreviewPath": "/main.html",
+    "liveSassCompile.settings.formats": [
+        {
+            "format": "expanded",
+            "extensionName": ".css",
+            "savePath": "Stylesheet/Css",
+            "savePathReplacementPairs": null,
+        }
+    ]
+}
