@@ -1,14 +1,33 @@
 .navigation {
-  background-color: aquamarine;
-  height: 50px;
+  background-color: #95292D;
+  height: auto;
   width: 100%;
-  display: flex;
   align-items: center;
-  justify-content: space-around;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 20px;
-  font-weight: bold;
-  color: white;
-  text-shadow: 2px 2px 4px #000000;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.navbar a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  padding: 20px;
+  border-left: 1px solid #C33F45;
+  border-right: 1px solid #C33F45;
+}
+.navbar a:not(:first-child) {
+  border-left: none;
+}
+.navbar a:hover {
+  background-color: #bbb;
+}
+
+body {
+  background-color: white;
 }/*# sourceMappingURL=main.css.map */

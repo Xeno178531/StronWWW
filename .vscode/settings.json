@@ -1,5 +1,4 @@
 {
-    "livePreview.defaultPreviewPath": "/main.html",
     "liveSassCompile.settings.formats": [
         {
             "format": "expanded",
