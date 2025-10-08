@@ -1,11 +1,15 @@
 .navigation {
-    background-color: #95292D;
+    background-color: #43c6ac;
     height: auto;
     width: 100%;
     align-items: center;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
-
+    margin: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
 }
 
 .navbar {
