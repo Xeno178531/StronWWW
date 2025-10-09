@@ -1,1 +1,10 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"main.css"}
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,IAAI,CAAC;EACH,OAAO,EAAE,IAAI;EACb,WAAW,EAAE,MAAM;EACnB,MAAM,EAAE,KAAK;EACb,gBAAgB,EAAE,iCAAiC;EACnD,gBAAgB,EAAE,UAAU;CAC7B",
+    "sources": [
+        "../Scss/main.scss",
+        "../Scss/_header.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}

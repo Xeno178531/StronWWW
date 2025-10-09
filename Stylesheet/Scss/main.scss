@@ -1,1 +1,9 @@
 @import 'header';
+
+body {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background-image: url(`files/images/kodowanie.jpg`);
+  background-color: lightblack;
+}
