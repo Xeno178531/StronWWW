@@ -1,19 +1,18 @@
-@use 'Base/Reset.scss';
-@use 'Base/Mixins';
-@use 'Base/Variables';
-@use 'Base/Typhography';
-@use 'Layout/Footer';
-@use 'Layout/Grid';
-@use 'Layout/Header';
-@use 'Layout/Nav';
-@use 'Components/Buttons';
-@use 'Components/Cards';
-@use 'Components/Modals';
-@use 'Pages/AboutUs';
-@use 'Pages/Account';
-@use 'Pages/Contact';
-@use 'Pages/MainPage';
+@import 'Base/Reset.scss';
+@import 'Base/Mixins';
+@import 'Base/Variables';
+@import 'Base/Typhography';
+@import 'Layout/Footer';
+@import 'Layout/Grid';
+@import 'Layout/Header';
+@import 'Layout/Nav';
+@import 'Components/Buttons';
+@import 'Components/Cards';
+@import 'Components/Modals';
+@import 'Pages/AboutUs';
+@import 'Pages/Account';
+@import 'Pages/Contact';
+@import 'Pages/MainPage';
 body {
-  background-color: #222020;
+   background-color: rgb(34, 32, 32);
 }
-/*# sourceMappingURL=main.css.map */
