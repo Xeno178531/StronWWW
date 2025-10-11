@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+.navigation {
+  background-color: #272727;
+  height: auto;
+  width: 100%;
+  align-items: center;
+  font-family: "Funnel Sans", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  margin: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.navbar a {
+  text-decoration: none;
+  color: rgb(240, 239, 239);
+  text-align: center;
+  padding: 20px;
+  border-left: 3px solid #333333;
+  border-right: 3px solid #333333;
+}
+.navbar a:not(:first-child) {
+  border-left: none;
+}
+.navbar a:hover {
+  background-color: #393836;
+}
+
+body {
+  background-image: url("/Files/Images/backgrounMain.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}/*# sourceMappingURL=Main.css.map */
