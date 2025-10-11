@@ -31,4 +31,12 @@
 }
 .navbar a:hover {
   background-color: #bbb;
+<<<<<<< HEAD
 }/*# sourceMappingURL=main.css.map */
+=======
+}
+
+body {
+   background-color: rgb(34, 32, 32);
+}
+>>>>>>> f12d0f175e67522f8a1a489fac03d147dd7c1f40
