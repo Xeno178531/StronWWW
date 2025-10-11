@@ -14,12 +14,9 @@
 @use 'Components/Buttons';
 @use 'Components/Cards';
 @use 'Components/Modals';
+
 // ===== PAGES =====
 @use 'Pages/AboutUs';
 @use 'Pages/Account';
 @use 'Pages/Contact';
 @use 'Pages/MainPage';
-
-body {
-   background-color: rgb(34, 32, 32);
-}
