@@ -19,31 +19,34 @@
 }
 
 
-.navbar-center, .navbar-left, .navbar-right {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: center;
-	margin: 0 auto;
+.navbar-left, 
+.navbar-center,
+.navbar-right {
+    display: flex;
+    align-items: center;
 
 	a {
-		text-decoration: none;
-		color: rgb(240, 239, 239);
-		text-align: center;
-		padding: 20px;
+		color: #f0efef;
+    	text-decoration: none;
+    	padding: 15px;
+    	transition: background-color 0.3s ease;
 		
+	
 		&:hover {
 			background-color: #393836;
 		}
 	}
 }
 
-.github {
+.github, .facebook {
 	fill: white;
-	height: 48px;
-	width: 48px;
-	
+	height: 32px;
+	width: 32px;
+	display: block;
+
+
 	path {
 		fill: inherit;
 	}
 }
+

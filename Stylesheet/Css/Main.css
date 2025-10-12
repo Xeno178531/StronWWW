@@ -17,29 +17,33 @@
   justify-content: space-between;
 }
 
-.navbar-center, .navbar-left, .navbar-right {
+.navbar-left,
+.navbar-center,
+.navbar-right {
   display: flex;
-  flex-direction: row;
   align-items: center;
-  justify-content: center;
-  margin: 0 auto;
 }
-.navbar-center a, .navbar-left a, .navbar-right a {
+.navbar-left a,
+.navbar-center a,
+.navbar-right a {
+  color: #f0efef;
   text-decoration: none;
-  color: rgb(240, 239, 239);
-  text-align: center;
-  padding: 20px;
+  padding: 15px;
+  transition: background-color 0.3s ease;
 }
-.navbar-center a:hover, .navbar-left a:hover, .navbar-right a:hover {
+.navbar-left a:hover,
+.navbar-center a:hover,
+.navbar-right a:hover {
   background-color: #393836;
 }
 
-.github {
+.github, .facebook {
   fill: white;
-  height: 48px;
-  width: 48px;
+  height: 32px;
+  width: 32px;
+  display: block;
 }
-.github path {
+.github path, .facebook path {
   fill: inherit;
 }
 
