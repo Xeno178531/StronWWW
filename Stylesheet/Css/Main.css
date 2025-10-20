@@ -76,20 +76,4 @@ h1 {
   justify-self: center;
   top: 200px;
   font-size: 3rem;
-  border-radius: 50px;
-  border: white, solid;
-  margin: 20px;
-  padding: 80px;
-}
-
-.blur {
-  background-color: rgba(255, 255, 255, 0.01);
-  -webkit-backdrop-filter: blur(10px);
-          backdrop-filter: blur(10px);
-}
-
-body {
-  background-image: url("/Files/Images/backgoundMain.svg");
-  background-size: cover;
-  background-position: center;
 }/*# sourceMappingURL=Main.css.map */
