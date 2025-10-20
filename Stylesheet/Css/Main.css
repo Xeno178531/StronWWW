@@ -12,33 +12,76 @@
   top: 0;
   left: 0;
   z-index: 1000;
-}
-
-.navbar {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+}
+
+.navbar-left,
+.navbar-center,
+.navbar-right {
+  display: flex;
   align-items: center;
-  justify-content: center;
 }
-.navbar a {
+.navbar-left a,
+.navbar-center a,
+.navbar-right a {
+  color: #f0efef;
   text-decoration: none;
-  color: rgb(240, 239, 239);
-  text-align: center;
-  padding: 20px;
-  border-left: 3px solid #333333;
-  border-right: 3px solid #333333;
+  padding: 15px;
+  transition: background-color 0.3s ease;
 }
-.navbar a:not(:first-child) {
-  border-left: none;
-}
-.navbar a:hover {
+.navbar-left a:hover,
+.navbar-center a:hover,
+.navbar-right a:hover {
   background-color: #393836;
 }
 
-body {
+.github, .facebook {
+  fill: white;
+  height: 32px;
+  width: 32px;
+  display: block;
+}
+.github path, .facebook path {
+  fill: inherit;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.LiquidGlass {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+}
+.LiquidGlass h1 {
+  position: relative;
+  z-index: 2;
+  color: white;
+  text-align: center;
+  justify-self: center;
+  top: 15%;
+  font-size: 3rem;
+  border-radius: 50px;
+  border: white, solid;
+  margin: 20px;
+  padding: 100px;
+}
+
+.LiquidGlassBg {
+  position: absolute;
+  top: -100px;
+  right: -100px;
+  bottom: -100px;
+  left: -100px;
   background-image: url("/Files/Images/backgrounMain.jpg");
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  filter: blur(10px);
+  transform: scale(1.1);
+  z-index: 1;
 }/*# sourceMappingURL=Main.css.map */
