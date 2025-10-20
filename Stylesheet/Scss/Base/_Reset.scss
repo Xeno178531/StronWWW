@@ -1,1 +1,17 @@
 // Reset i/lub normalizacja stylów
+
+.blur {
+    background-color: rgba($color: #ffffff, $alpha: 0.01);
+    backdrop-filter: blur(10px);
+
+    border: rgba($color: #ffffff, $alpha: 0.1), solid;
+    border-radius: 50px;
+    margin: 20px;
+    padding: 80px;
+}
+
+body {
+    background-image: url("/Files/Images/backgoundMain.svg");
+    background-size: cover;
+    background-position: center;
+}

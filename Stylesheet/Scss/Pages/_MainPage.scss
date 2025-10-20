@@ -5,36 +5,12 @@ html, body {
     height: 100%;
 }
 
-.LiquidGlass {
-    position: relative;
-    height: 100vh;
-    overflow: hidden;
 
-    h1 {
-        position: relative;
-        z-index: 2;
-        color: white;
-        text-align: center;
-        justify-self: center;
-        top: 15%;
-        font-size: 3rem;
-        border-radius: 50px;
-        border: white, solid;
-        margin: 20px;
-        padding: 100px;
-    }
-}
-
-.LiquidGlassBg {
+h1 {
     position: absolute;
-    top: -100px;
-    right: -100px;
-    bottom: -100px;
-    left: -100px;
-    background-image: url("/Files/Images/backgrounMain.jpg");
-    background-size: cover;
-    background-position: center;
-    filter: blur(10px);
-    transform: scale(1.1);
-    z-index: 1;
+    color: white;
+    text-align: center;
+    justify-self: center;
+    top: 200px;
+    font-size: 3rem;
 }
