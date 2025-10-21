@@ -15,13 +15,6 @@ body {
   background-position: center;
 }
 
-h1 {
-  color: white;
-  text-align: center;
-  justify-self: center;
-  font-size: 3rem;
-}
-
 html, body {
   margin: 0;
   padding: 0;
@@ -84,14 +77,87 @@ body {
 
 #Signup {
   padding: 20px;
-  margin: 20px;
+  width: 500px;
+  color: white;
+  text-align: center;
+  justify-self: center;
+  font-weight: 900;
+  font-size: 2rem;
+}
+#Signup p {
+  color: white;
+  text-align: center;
+  justify-self: center;
+  font-weight: 600;
+  font-size: 1rem;
+}
+#Signup p a {
+  color: cyan;
 }
 #Signup #SignupInput {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
-#Signup #SignupInput input {
+#Signup #SignupInput div {
+  display: flex;
+}
+#Signup #SignupInput div input {
+  width: 100%;
+  color: white;
   text-decoration: none;
-  padding: 0;
-  margin: 20px;
+  color: white;
+  text-align: center;
+  justify-self: center;
+  font-weight: 600;
+  font-size: 1rem;
+  text-align: left;
+  padding: 10px;
+  margin: 10px 40px 10px 10px;
+  border: none;
+  border-bottom: 3px solid white;
+  background: transparent;
+  outline: none;
+}
+#Signup #SignupInput div input::-moz-placeholder {
+  color: white;
+  text-align: center;
+  justify-self: center;
+  font-weight: 600;
+  font-size: 1rem;
+}
+#Signup #SignupInput div input::placeholder {
+  color: white;
+  text-align: center;
+  justify-self: center;
+  font-weight: 600;
+  font-size: 1rem;
+}
+#Signup #SignupInput div label {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+#Signup #SignupInput button {
+  border-radius: 20px;
+  padding: 10px;
+  margin: 50px;
+  background-color: transparent;
+  border: 3px solid white;
+  color: white;
+  text-align: center;
+  justify-self: center;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+#Signup #SignupInput button:hover {
+  background-color: white;
+  color: black;
+  text-align: center;
+  justify-self: center;
+  font-weight: 600;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
 }/*# sourceMappingURL=Account.css.map */

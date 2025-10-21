@@ -1,14 +1,57 @@
 // Strona "Konto"
+@use '../Base/Mixins' as*;
+
 #Signup {   
     padding: 20px;
-    margin: 20px;
+    width: 500px;
+    @include Title(white, 2rem, 900);
+    p {
+        @include Title(white, 1rem, 600);
+        a {color: cyan;}
+    }
+
     #SignupInput {
         display: flex;
         flex-direction: column;
-        input {
-            text-decoration: none;
-            padding: 0;
-            margin: 20px;
+        width: 100%;
+        div {
+            display: flex;
+            input {
+                width: 100%;
+                color: white;
+                text-decoration: none;
+                @include Title(white, 1rem, 600);
+                text-align: left;
+                padding: 10px;
+                margin: 10px 40px 10px 10px;
+                border: none;
+                border-bottom: 3px solid white;
+                background: transparent;
+                outline: none;
+                &::placeholder {
+                    @include Title(white, 1rem, 600);
+                }  
+            }
+            label {
+                justify-content: center;
+                align-items: center;
+                display: flex;
+            }
+        }
+        button {
+            border-radius: 20px;
+            padding: 10px;
+            margin: 50px;
+            background-color: transparent;
+            border: 3px solid white;
+            @include Title(white, 1rem, 600);
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            &:hover {
+                background-color: white;
+                @include Title(black, 1rem, 600);
+                transition: background-color 0.3s ease;
+            }
         }
     }
 }
