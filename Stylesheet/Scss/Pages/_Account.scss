@@ -1,1 +1,14 @@
 // Strona "Konto"
+#Signup {   
+    padding: 20px;
+    margin: 20px;
+    #SignupInput {
+        display: flex;
+        flex-direction: column;
+        input {
+            text-decoration: none;
+            padding: 0;
+            margin: 20px;
+        }
+    }
+}

@@ -3,13 +3,12 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="/Stylesheet/Css/Main.css">
+        <link rel="stylesheet" href="/Stylesheet/Css/Account.css">
         <link rel="icon" href="Files/Icons/favicon.png" type="image/png">
         <title>Strona Główna</title>
     </head>
     <body>
         <nav class="navigation">
-
             <div class="navbar-right">
                 <a class="github" href="https://github.com/Xeno178531/StronWWW" target="_blank">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="currenColor" width="32" height="32" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" viewBox="0 0 640 640">
@@ -22,17 +21,25 @@
                     </svg>
                 </a>
             </div>
-
             <div class="navbar-center">
                 <a href="MainPage.html">Strona Główna</a>
                 <a href="AboutUs.html">O nas</a>
                 <a href="Contact.html">Kontakt</a>
                 <a href="Account.html">Konto</a>
             </div>
-
             <div class="navbar-left">
                 <a>Test</a>
             </div>
         </nav>
+
+        <section id="Signup">
+            <h1>Rejestracja</h1>
+            <div id="SignupInput">
+                <input type="text" id="UserNameInput" name="UserName" placeholder="Użytkownik">
+                <input type="text" id="Email" name="EmailInput" placeholder="Adres Email">
+                <input type="password" id="PasswordInput" name="Password" placeholder="Hasło">
+                <input type="password" id="RepeatPasswordInput" name="RepeatPassword" placeholder="Powtórz hasło">
+            </div>                
+        </section>                
     </body>
 </html>

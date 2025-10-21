@@ -15,6 +15,13 @@ body {
   background-position: center;
 }
 
+h1 {
+  color: white;
+  text-align: center;
+  justify-self: center;
+  font-size: 3rem;
+}
+
 html, body {
   margin: 0;
   padding: 0;
@@ -76,6 +83,7 @@ body {
 }
 
 #Signup {
+  padding: 20px;
   margin: 20px;
 }
 #Signup #SignupInput {
@@ -86,13 +94,4 @@ body {
   text-decoration: none;
   padding: 0;
   margin: 20px;
-}
-
-h1 {
-  position: absolute;
-  color: white;
-  text-align: center;
-  justify-self: center;
-  top: 200px;
-  font-size: 3rem;
-}/*# sourceMappingURL=Main.css.map */
+}/*# sourceMappingURL=Account.css.map */

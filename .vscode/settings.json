@@ -6,5 +6,8 @@
             "savePath": "/Stylesheet/Css",
             "savePathReplacementPairs": null,
         }
-    ]
+    ],
+    "emmet.preferences": {
+        "format.forceNewLine":true
+    }
 }
