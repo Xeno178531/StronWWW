@@ -1,1 +1,6 @@
 // Strona "Główna"
+@use '../Base/Mixins' as*;
+
+.blur {
+    @include Title(white, 3rem, 900)
+}

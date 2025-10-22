@@ -1,3 +1,7 @@
+// Stylizacja Body
+
+@use '../Base/Mixins' as*;
+
 html, body {
     margin: 0;
     padding: 0;

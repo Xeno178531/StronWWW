@@ -1,5 +1,7 @@
 // Reset i/lub normalizacja stylów
 
+@use '../Base/Mixins' as*;
+
 .blur {
     background-color: rgba($color: #ffffff, $alpha: 0.01);
     backdrop-filter: blur(10px);
