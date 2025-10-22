@@ -94,17 +94,16 @@ body {
 #Signup p a {
   color: cyan;
 }
-#Signup #SignupInput {
+#Signup #Account {
   display: flex;
   flex-direction: column;
   width: 100%;
 }
-#Signup #SignupInput div {
+#Signup #Account div {
   display: flex;
 }
-#Signup #SignupInput div input {
+#Signup #Account div input {
   width: 100%;
-  color: white;
   text-decoration: none;
   color: white;
   text-align: center;
@@ -119,26 +118,26 @@ body {
   background: transparent;
   outline: none;
 }
-#Signup #SignupInput div input::-moz-placeholder {
+#Signup #Account div input::-moz-placeholder {
   color: white;
   text-align: center;
   justify-self: center;
   font-weight: 600;
   font-size: 1rem;
 }
-#Signup #SignupInput div input::placeholder {
+#Signup #Account div input::placeholder {
   color: white;
   text-align: center;
   justify-self: center;
   font-weight: 600;
   font-size: 1rem;
 }
-#Signup #SignupInput div label {
+#Signup #Account div label {
   justify-content: center;
   align-items: center;
   display: flex;
 }
-#Signup #SignupInput button {
+#Signup #Account button {
   border-radius: 20px;
   padding: 10px;
   margin: 50px;
@@ -152,7 +151,7 @@ body {
   cursor: pointer;
   transition: background-color 0.3s ease;
 }
-#Signup #SignupInput button:hover {
+#Signup #Account button:hover {
   background-color: white;
   color: black;
   text-align: center;
@@ -160,4 +159,36 @@ body {
   font-weight: 600;
   font-size: 1rem;
   transition: background-color 0.3s ease;
+}
+
+form div.Incorrect label svg {
+  fill: rgb(255, 82, 82);
+}
+
+#Signup #Account div.Incorrect input {
+  color: rgb(255, 82, 82);
+  text-align: center;
+  justify-self: center;
+  font-weight: 600;
+  font-size: 1rem;
+  border-bottom: 3px solid rgb(255, 82, 82);
+  text-align: left;
+}
+#Signup #Account div.Incorrect input::-moz-placeholder {
+  color: rgb(255, 82, 82);
+  text-align: center;
+  justify-self: center;
+  font-weight: 600;
+  font-size: 1rem;
+}
+#Signup #Account div.Incorrect input::placeholder {
+  color: rgb(255, 82, 82);
+  text-align: center;
+  justify-self: center;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+#ErrorMessage {
+  color: rgb(255, 82, 82);
 }/*# sourceMappingURL=MainPage.css.map */
