@@ -28,7 +28,6 @@ body {
 }
 
 .navigation {
-  background-color: #272727;
   position: fixed;
   top: 0;
   left: 0;
@@ -82,7 +81,7 @@ body {
 }
 
 .navigation a:hover {
-  background-color: #393836;
+  background-color: rgba(255, 255, 255, 0.2);
   color: #ffffff;
 }
 
@@ -218,7 +217,7 @@ form div.Incorrect label svg {
   color: rgb(255, 82, 82);
 }
 
-.blur {
+.Section1 .blur {
   color: white;
   text-align: center;
   justify-self: center;
